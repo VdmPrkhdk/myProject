@@ -56,7 +56,7 @@ header{
 }
 @media screen and (max-width:500px) {
     .ytvideo{
-        width: 100%;
+        width: 80%;
     }
     
 }
