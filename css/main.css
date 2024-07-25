@@ -54,3 +54,9 @@ header{
     background-color: black;
     color: #9ec0db;
 }
+@media screen and (max-width:500px) {
+    .ytvideo{
+        width: 100%;
+    }
+    
+}
