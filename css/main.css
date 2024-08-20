@@ -82,9 +82,6 @@ footer{
 }
 
 @media screen and (max-width:500px) {
-    .ytvideo{
-        width: 80%;
-    }
     input{
         display: none;
     }
