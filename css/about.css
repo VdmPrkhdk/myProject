@@ -34,4 +34,9 @@ input{
     height: 50%;
 
 }
+@media screen and (max-width:500px) {
+    input{
+        display: none;
+    }
+}
 

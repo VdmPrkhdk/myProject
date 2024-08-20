@@ -24,4 +24,8 @@ input{
         margin-top: 10px;
         max-height:  25px;
     }
-
+    @media screen and (max-width:500px) {
+        input{
+            display: none;
+        }
+    }
