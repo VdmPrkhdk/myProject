@@ -1,12 +1,36 @@
+body{
+    background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    width: 100%;
+   
+}
+header li{
+    display: inline-block;
+    margin-left: 15px;
+}
+header a{
+    text-decoration: none;
+}
+.header-wrap{
+    width: 960px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+        margin-top: 10px;
+        max-height:  25px;
+    }
 img{
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
     border-color: #9ec0db;
     box-shadow: 8px 8px 8px 8px; 
-}
-body{
-    background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
-    padding: 0;
-    margin: 0;
 }
 h1{
     color: #ffffff; 
@@ -29,7 +53,8 @@ h2{
 .container{
     align-items: center;
     height: 60vh;
-    justify-content: center;
+    display:inline-block;
+    justify-content: space-between;
 
 }
 .personal {
@@ -37,7 +62,7 @@ h2{
     display: inline-block;
     }
 .info, .avatar {
-    position: relative;
+
 display: inline-block;
 
 }
@@ -49,14 +74,18 @@ display: inline-block;
 footer{
     background-color: black;
     color: #cfecd0;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
-header{
-    background-color: black;
-    color: #9ec0db;
-}
+
 @media screen and (max-width:500px) {
     .ytvideo{
         width: 80%;
     }
-    
+    input{
+        display: none;
+    }
 }
